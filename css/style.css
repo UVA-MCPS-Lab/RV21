@@ -212,6 +212,17 @@
 			{
 				float: left;
 				margin: 0 2em 2em 0;
+				width: 30%;
+				height: auto;
+
+			}
+			.image.tall
+			{
+				float: left;
+				margin: 0 2em 2em 0;
+				width: 20%;
+				height: auto;
+
 			}
 
 			.image.centered
