@@ -224,7 +224,7 @@
 				height: auto;
 
 			}
-			
+
 
 			.image.centered
 			{
@@ -351,6 +351,42 @@
 	{
 		color: #FFF;
 	}
+
+/*********************************************************************************/
+/* Table                                                                       */
+/*********************************************************************************/
+#table
+{
+	/* border: 1px solid #000000; */
+  /* width: 100%;
+  text-align: center;
+	padding: 5px 5px;
+  border-collapse: collapse; */
+}
+
+#table td
+{
+	border: 1px solid #000000;
+	/* width: 50%; */
+  text-align: left;
+	padding: 10px 10px;
+  border-collapse: collapse;
+
+}
+
+.thead
+{
+	background: #CFCFCF;
+}
+
+.tday
+{
+	background: #000000;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
+
 
 /*********************************************************************************/
 /* Copyright                                                                     */
