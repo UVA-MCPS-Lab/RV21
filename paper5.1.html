@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Monochromed by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>RV'21</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+	<!-- Header -->
+		<div id="header">
+			<div class="container">
+
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="index.html">RV'21</a></h1>
+					<span>21st International Conference on Runtime Verification</span>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="callforpapers.html">Call For Papers</a></li>
+						<li><a href="program.html">Program</a></li>
+						<li><a href="organization.html">Organization</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+	<!-- Header -->
+
+	<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row">
+
+					<!-- Content -->
+						<div id="content" class="12u skel-cell-important">
+							<section>
+								<header>
+									<h2>Diamont: Dynamic Monitoring of Uncertainty for Distributed Asynchronous Programs</h2>
+									<span class="byline">Vimuth Fernando, Keyur Joshi, Jacob Laurel and Sasa Misailovic</span>
+								</header>
+								<p>
+									<b>Abstract:</b> Many application domains including graph analytics, the Internet-of-Things,
+									precision agriculture, and media processing operate on noisy data and/or produce approximate
+									results. These applications can distribute computation across multiple (often resource-constrained)
+									processing units. Analyzing the reliability and accuracy of such applications is challenging,
+									since most existing techniques operate on specific fixed error models, check for individual properties,
+									or can only be applied to sequential programs. We present Diamont, a system for dynamic monitoring
+									of uncertainty properties in distributed programs. Diamont programs consist of distributed
+									processes that communicate via asynchronous message passing. Diamont includes datatypes that
+									dynamically monitor uncertainty in data and provides support for checking predicates over
+									the monitored uncertainty at runtime. We also present a general methodology for verifying
+									the soundness of the runtime system and optimizations using canonical sequentialization.
+
+									We implemented Diamont for a subset of the Go language and evaluated eight programs
+									from precision agriculture, graph analytics, and media processing. We show that Diamont can
+									prove important end-to-end properties on the program outputs for significantly larger inputs
+									compared to prior work, with modest execution time overhead: 3% on average and 16.3% at maximum.
+
+								</p>
+
+								<!-- <center>
+								<iframe width="860" height="515" src="https://www.youtube.com/embed/AGlaMwdO6RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</center>  -->
+
+								<!-- <script src="https://utteranc.es/client.js"
+						        repo="UVA-MCPS-Lab/RV21"
+						        issue-term="pathname"
+						        theme="github-light"
+						        crossorigin="anonymous"
+						        async>
+								</script> -->
+
+
+							</section>
+						</div>
+					<!-- /Content -->
+
+				</div>
+
+			</div>
+		</div>
+	<!-- Main -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<!--
+	Monochromed by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>RV'21</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+	<!-- Header -->
+		<div id="header">
+			<div class="container">
+
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="index.html">RV'21</a></h1>
+					<span>21st International Conference on Runtime Verification</span>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="callforpapers.html">Call For Papers</a></li>
+						<li><a href="program.html">Program</a></li>
+						<li><a href="organization.html">Organization</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+	<!-- Header -->
+
+	<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row">
+
+					<!-- Content -->
+						<div id="content" class="12u skel-cell-important">
+							<section>
+								<header>
+									<h2>Assumption-Based Runtime Verification of Infinite-State Systems</h2>
+									<span class="byline">Alessandro Cimatti, Chun Tian and Stefano Tonetta</span>
+								</header>
+								<p>
+									<b>Abstract:</b> Runtime Verification (RV) basically means monitoring an execution trace of a system
+									under scrutiny and checking if the trace satisfies or violates a specification. In Assumption-Based
+									Runtime Verification (ABRV), runtime monitors may be synthesized from not only the specification
+									but also a system model (either full or partial), which represents the assumptions on which the
+									input traces are expected to follow. With assumptions the monitor can additionally check if the
+									input traces actually follow the assumptions. Some previous research has shown that monitors under
+									assumptions can be more precise or even predictive, while non-monitorable specifications may
+									become monitorable under assumptions.
+								</p>
+								<p>
+									The question of synthesizing runtime monitors for finite-state systems and propositional or first-order
+									temporal logics, with or without assumptions, has mostly been answered by prior work.
+									For monitoring infinite-state systems, however, most existing approaches focus on supporting
+									parametric or first-order specifications while they cannot be easily extended to support assumptions.
+								</p>
+								<p>
+									This paper presents a general solution for ABRV of infinite-state systems by a reduction of RV
+									problems to LTL Model Checking (MC), which is further based on Satisfiability Modulo Theories and
+									other techniques. When First-Order Quantifier Elimination (QE) is also available, the corresponding
+									algorithm can be greatly optimized. This solution is general because in theory any LTL MC (and QE)
+									algorithms can be used, and the supported types of infinite-state variables also depend on these
+									under-lying algorithms. In particular, the relatively expensive model checking can be minimized
+									by a modified version of Bounded Model Checking algorithm which performs model checking
+									incrementally on each input of the monitor.
+
+
+								</p>
+
+								<!-- <center>
+								<iframe width="860" height="515" src="https://www.youtube.com/embed/AGlaMwdO6RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</center>  -->
+
+								<!-- <script src="https://utteranc.es/client.js"
+						        repo="UVA-MCPS-Lab/RV21"
+						        issue-term="pathname"
+						        theme="github-light"
+						        crossorigin="anonymous"
+						        async>
+								</script> -->
+
+
+							</section>
+						</div>
+					<!-- /Content -->
+
+				</div>
+
+			</div>
+		</div>
+	<!-- Main -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+
+	</body>
+</html>
