@@ -216,6 +216,23 @@
 				height: auto;
 
 			}
+			.image.right
+			{
+				float: right;
+				margin: 0 1em 2em 0;
+				width: 20%;
+				height: auto;
+
+			}
+			.image.rightsmall
+			{
+				float: right;
+				margin: 0 1em 2em 0;
+				width: 15%;
+				height: auto;
+
+			}
+
 			.image.tall
 			{
 				float: left;
