@@ -69,36 +69,13 @@
 								</p>
 							</center>
 
-<!-- 							<form method="POST" action="https://rv21-staticman.herokuapp.com/v3/entry/github/UVA-MCPS-Lab/RV21/staticman/gh-pages/comments">
-							  <input name="options[redirect]" type="hidden" value="https://my-site.com">
-							  <!-- e.g. "2016-01-02-this-is-a-post" -->
-							  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-							  <label>Name<input name="fields[name]" type="text"></label><br>
-							  <label>E-mail<input name="fields[email]" type="email"></label><br>
-							  <label>Message<textarea name="fields[message]"></textarea></label><br>
-							  <button type="submit">Go!</button>
-							</form> -->
 
 
 							</section>
 						</div>
 					<!-- /Content -->
-
-				</div>
-
-			</div>
-		</div>
-	<!-- Main -->
-
-	<!-- Copyright -->
-		<div id="copyright">
-			<div class="container">
-				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-			</div>
-		</div>
-	
-	
-	<section class="comments" id="comment-section">
+				
+				<section class="comments" id="comment-section">
   <hr>
   {% if site.data.comments[page.slug] %}
   <!-- Existing comments -->
@@ -130,6 +107,19 @@
 {% if site.reCaptcha.enabled %}
 <script src="https://www.google.com/recaptcha/api.js"></script>
 {% endif %}
+
+				</div>
+
+			</div>
+		</div>
+	<!-- Main -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
 
 	</body>
 </html>
