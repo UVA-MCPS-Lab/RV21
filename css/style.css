@@ -125,6 +125,15 @@
 			line-height: 1;
 		}
 
+		header h7
+		{
+			letter-spacing: -1px;
+			font-size: 32pt;
+			font-weight: 700;
+			line-height: 1;
+			color: #ff0000;
+		}
+
 		header .byline
 		{
 			display: block;
